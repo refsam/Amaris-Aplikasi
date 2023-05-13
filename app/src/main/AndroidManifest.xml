@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="app.ij.mlwithtensorflowlite">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/amaris"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/amaris"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MLWithTensorFlowLite">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity1"></activity>
+        <activity android:name=".MainActivity2"></activity>
+        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity4"></activity>
+        <activity android:name=".MainActivity5"></activity>
+        <activity android:name=".dua"></activity>
+        <activity android:name=".tiga"></activity>
+        <activity android:name=".empat"></activity>
+        <activity android:name=".lima"></activity>
+        <activity android:name=".enam"></activity>
+        <activity android:name=".tujuh"></activity>
+        <activity android:name=".delapan"></activity>
+        <activity android:name=".sembilan"></activity>
+        <activity android:name=".nol"></activity>
+        <activity android:name=".hurufa"></activity>
+        <activity android:name=".hurufb"></activity>
+        <activity android:name=".hurufc"></activity>
+        <activity android:name=".hurufd"></activity>
+        <activity android:name=".hurufe"></activity>
+        <activity android:name=".huruff"></activity>
+        <activity android:name=".hurufg"></activity>
+        <activity android:name=".hurufh"></activity>
+        <activity android:name=".hurufi"></activity>
+        <activity android:name=".hurufj"></activity>
+        <activity android:name=".hurufk"></activity>
+        <activity android:name=".hurufl"></activity>
+        <activity android:name=".hurufm"></activity>
+        <activity android:name=".hurufn"></activity>
+        <activity android:name=".hurufo"></activity>
+        <activity android:name=".hurufp"></activity>
+        <activity android:name=".hurufq"></activity>
+        <activity android:name=".hurufr"></activity>
+        <activity android:name=".hurufs"></activity>
+        <activity android:name=".huruft"></activity>
+        <activity android:name=".hurufu"></activity>
+        <activity android:name=".hurufv"></activity>
+        <activity android:name=".hurufw"></activity>
+        <activity android:name=".hurufx"></activity>
+        <activity android:name=".hurufy"></activity>
+        <activity android:name=".hurufz"></activity>
+
+
+    </application>
+
+</manifest>
